@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'OldSport';
+  src: url(OLDSPORT.ttf);
+}
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+   
+  .bakgrund {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+
+  }
+
+  .formen {
+    font-size: 120px;
+    text-align:left; 
+    vertical-align: middle; 
+    padding:20px 47px;
+    font-family: 'OldSport';
+    color: black;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+    position: fixed;
+    top: 55%;
+    left: 28%;
+    z-index: 2;
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .formen:hover {
+    letter-spacing: 3px;
+  }
+
+
